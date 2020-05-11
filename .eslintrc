@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off",
+    "semi": "off",
+    "indent": "off"
+  },
+  "extends": ["eslint:recommended", "google"]
+}
