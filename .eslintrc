@@ -9,6 +9,8 @@
     "comma-dangle": "off",
     "require-jsdoc": "off",
     "semi": "off",
+    "no-unused-vars": "off",
+    "max-len": "off",
     "indent": "off"
   },
   "extends": ["eslint:recommended", "google"]
