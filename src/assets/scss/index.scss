@@ -1,0 +1,24 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import "header";
+@import "toolbar";
+@import "inputbar";
+@import "table";
+@import "board";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.app {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}

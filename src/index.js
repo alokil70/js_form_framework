@@ -1,3 +1,3 @@
-import './assets/scss/style'
+import './assets/scss/index'
 
 console.log('index.js')
