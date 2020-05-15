@@ -15,8 +15,9 @@
         opacity: .5;
         font-size: 18px;
         font-style: italic;
+        text-align: center;
         border-right: 1px solid $border-color;
-        min-width: $cell-width;
+        min-width: $info-cell-width;
     }
 
     .input {
