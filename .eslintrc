@@ -11,6 +11,7 @@
     "semi": "off",
     "no-unused-vars": "off",
     "max-len": "off",
+    "no-debugger": "off",
     "indent": "off"
   },
   "extends": ["eslint:recommended", "google"]

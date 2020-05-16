@@ -1,7 +1,16 @@
 import {DomListener} from '@core/DomListener'
 
 export class AppComponent extends DomListener {
-    toHTML() {
-        return ''
-    }
+  constructor($root, options = {}) {
+    super($root, options.listeners)
+  }
+
+  // Возвращает шаблон компонента
+  toHTML() {
+    return ''
+  }
+
+  init() {
+    this.initDOMListeners()
+  }
 }
